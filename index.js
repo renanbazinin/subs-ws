@@ -11,8 +11,8 @@ const movieBL = require("./services/movieService")
 
 
 const app = express();
-const port = process.env.PORT;
-
+//const port = process.env.PORT;
+const port = "8001";
 app.use(cors());
 connectDB()
 //They converted  what

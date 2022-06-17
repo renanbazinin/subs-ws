@@ -109,6 +109,7 @@ const makeVaildDB = async()=>{
 
 makeVaildDB()
 
+app.get("/",(req,res)=> res.send("hey use members to see them all"))
 
 app.listen(port,()=>{
 
